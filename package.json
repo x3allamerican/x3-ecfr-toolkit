@@ -1,6 +1,6 @@
 {
   "name": "@x3/ecfr-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read the Code of Federal Regulations from the official eCFR API as clean paragraph-level data: citations, full text, search, change history and diffs.",
   "type": "module",
   "main": "dist/index.js",

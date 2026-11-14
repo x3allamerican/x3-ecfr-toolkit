@@ -140,3 +140,30 @@ test('live eCFR (set ECFR_LIVE=1)', { skip: !process.env.ECFR_LIVE }, async () =
   const s = await c.search('sleeper berth', { title: 49, perPage: 3 });
   assert.ok(s.results.length > 0);
 });
+
+test('eCFR part XML with entity dashes still nests the inline first child', () => {
+  const xml = `<DIV8 N="1904.7" TYPE="SECTION"><HEAD>§ 1904.7 General recording criteria.</HEAD>
+    <P>(a) <I>Basic requirement.</I> Text.</P>
+    <P>(b) <I>Implementation</I>&#x2014;(1) <I>How do I decide?</I> A case must be recorded if:</P>
+    <P>(i) Death.</P><P>(ii) Days away.</P><P>(2) Next.</P></DIV8>`;
+  assert.deepEqual(parseSectionXml(xml, 29).paragraphs.map((p) => p.label), ['(a)', '(b)(1)', '(b)(1)(i)', '(b)(1)(ii)', '(b)(2)']);
+});
+
+test('a roman numeral that cannot be the next letter is a child, never a gap', () => {
+  const xml = `<DIV8 N="1.3" TYPE="SECTION"><HEAD>§ 1.3 T.</HEAD><P>(b) B.</P><P>(i) roman.</P><P>(ii) roman.</P></DIV8>`;
+  const labels = parseSectionXml(xml, 1).paragraphs.map((p) => p.label);
+  assert.deepEqual(labels, ['(b)', '(b)(i)', '(b)(ii)']);
+  assert.deepEqual(parseSectionXml(xml, 1).paragraphs[1].path, ['b', '?', 'i']);
+});
+
+test('a child label right after an italic heading with no dash', () => {
+  const xml = `<DIV8 N="1904.43" TYPE="SECTION"><HEAD>§ 1904.43 T.</HEAD><P>(b) <I>Implementation</I>&#x2014;(1) <I>What do I include?</I> (i) You must include:</P><P>(A) The year;</P><P>(ii) If none, enter zeros.</P></DIV8>`;
+  assert.deepEqual(parseSectionXml(xml, 29).paragraphs.map((p) => p.label), ['(b)(1)(i)', '(b)(1)(i)(A)', '(b)(1)(ii)']);
+});
+
+test('tables come back as rows of cells', () => {
+  const xml = `<DIV9 N="Appendix A to Subpart E of Part 1904" TYPE="APPENDIX"><HEAD>Appendix A</HEAD><DIV><TABLE><THEAD><TR><TH>NAICS</TH><TH>Industry</TH></TR></THEAD><TBODY><TR><TD>11</TD><TD>Agriculture.</TD></TR><TR><TD>31-33</TD><TD>Manufacturing.</TD></TR></TBODY></TABLE></DIV></DIV9>`;
+  const s = parseSectionXml(xml, 29);
+  assert.equal(s.type, 'appendix');
+  assert.deepEqual(s.tables, [[['NAICS', 'Industry'], ['11', 'Agriculture.'], ['31-33', 'Manufacturing.']]]);
+});

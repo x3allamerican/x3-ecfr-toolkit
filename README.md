@@ -14,6 +14,7 @@ The eCFR API returns raw XML where paragraph numbers are just text: `<P>(b) <I>I
 - **Paragraphs:** every section comes back as labeled paragraphs with a full citation each, nested correctly through all levels.
 - **Change history:** substantive amendments to a part or section since a date, grouped by day.
 - **Diffs:** what changed in a section between two dates, paragraph by paragraph.
+- **Tables:** tables inside a section (exception lists, covered-industry lists) come back as rows of cells.
 - **Search:** full-text search with a citation and link on every hit.
 
 ## Install

@@ -86,9 +86,7 @@ function levelOf(label, stack, lastLevel) {
         return 3;
     if (label === 'i' && lastLevel >= 2)
         return 3;
-    if (asLetter)
-        return 1;
-    return label.length > 1 || lastLevel >= 2 ? 3 : 1;
+    return asLetter ? 1 : 3;
 }
 /** Read the labels at the start of a paragraph: "(c)(1) Any period", or "(b) <I>Heading</I>—(1) <I>Sub</I>". */
 function leadingLabels(inner) {
@@ -101,7 +99,7 @@ function leadingLabels(inner) {
         labels.push(m[1]);
         s = s.slice(m[0].length);
         // "(b) <I>Implementation</I>—(1) <I>..." puts the first child on the same line.
-        const inline = /^<I>[^<]{1,200}<\/I>\s*[—–-]{1,2}\s*(?=\()/.exec(s);
+        const inline = /^<I>[^<]{1,200}<\/I>\s*(?:[—–-]|&#x?(?:2014|2013|8212|8211);|&mdash;|&ndash;){0,2}\s*(?=\((?:[a-zA-Z]{1,5}|\d{1,3})\)\s)/i.exec(s);
         if (inline)
             s = s.slice(inline[0].length);
     }
@@ -116,15 +114,17 @@ function parseParagraphs(body, citationBase) {
         const labels = leadingLabels(inner);
         for (const lab of labels) {
             const lvl = levelOf(lab, stack, lastLevel);
-            stack.length = lvl - 1;
+            if (stack.length > lvl - 1)
+                stack.length = lvl - 1;
             while (stack.length < lvl - 1)
                 stack.push('?');
             stack.push(lab);
             lastLevel = lvl;
         }
         const path = [...stack];
-        const label = labels.length ? path.map((x) => `(${x})`).join('') : '';
-        out.push({ label, path, text: xmlText(inner), citation: `${citationBase}${path.map((x) => `(${x})`).join('')}` });
+        // '?' marks a level with no label (e.g. numbered items under an unlettered definition); leave it out of citations.
+        const shown = path.filter((x) => x !== '?').map((x) => `(${x})`).join('');
+        out.push({ label: labels.length ? shown : '', path, text: xmlText(inner), citation: `${citationBase}${shown}` });
     }
     return out;
 }
@@ -140,7 +140,10 @@ function sectionFrom(attrs, body, title) {
     const notes = [...body.matchAll(/<(AUTH|SOURCE|EDNOTE|CITA)(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g)].map((x) => xmlText(x[2]));
     const clean = body.replace(/<(AUTH|SOURCE|EDNOTE|CITA)(?:\s[^>]*)?>[\s\S]*?<\/\1>/g, '');
     const paragraphs = parseParagraphs(clean, type === 'section' ? citation : `${citation}`);
-    return { title: t, identifier: n, type, heading, citation, paragraphs, text: paragraphs.map((p) => p.text).join('\n\n'), notes };
+    const tables = [...clean.matchAll(/<(TABLE|GPOTABLE)\b[^>]*>([\s\S]*?)<\/\1>/g)].map((tb) => [...tb[2].matchAll(/<(TR|ROW|BOXHD)\b[^>]*>([\s\S]*?)<\/\1>/g)]
+        .map((r) => [...r[2].matchAll(/<(TD|TH|ENT|CHED)\b[^>]*>([\s\S]*?)<\/\1>/g)].map((c) => xmlText(c[2])))
+        .filter((r) => r.length));
+    return { title: t, identifier: n, type, heading, citation, paragraphs, text: paragraphs.map((p) => p.text).join('\n\n'), notes, tables };
 }
 /** Parse the XML for one section (a DIV8 element) from the eCFR full-text endpoint. */
 export function parseSectionXml(xml, title) {

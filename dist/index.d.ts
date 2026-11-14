@@ -36,7 +36,7 @@ export declare function ecfrUrl(c: Pick<Citation, 'title' | 'part' | 'section' |
 export interface Paragraph {
     /** Full label, e.g. "(b)(1)(i)". Empty for an unlabeled paragraph (it belongs to `path`). */
     label: string;
-    /** Labels of this paragraph and its parents, e.g. ["b", "1", "i"]. */
+    /** Labels of this paragraph and its parents, e.g. ["b", "1", "i"]. A level with no label is "?". */
     path: string[];
     /** Plain text with tags removed. */
     text: string;
@@ -56,6 +56,8 @@ export interface Section {
     text: string;
     /** Authority and source notes, if present. */
     notes: string[];
+    /** Tables in the section (rows of cell text, header row first), e.g. lists of exceptions or covered industries. */
+    tables: string[][][];
 }
 /** Strip tags, decode entities, collapse whitespace. */
 export declare function xmlText(s: string): string;
