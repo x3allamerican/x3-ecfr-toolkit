@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<DIV6 N="C" TYPE="SUBPART" VOLUME="5" hierarchy_metadata="{&amp;quot;path&amp;quot;:&amp;quot;/on/_SUBSTITUTE_DATE_/title-29/part-1904/subpart-C&amp;quot;,&amp;quot;citation&amp;quot;:&amp;quot;29 CFR Part 1904 Subpart C&amp;quot;}">
+<HEAD>Subpart C&#x2014;Recordkeeping Forms and Recording Criteria</HEAD>
+<NOTE>
+<HED>Note to subpart C:</HED>
+<P>This subpart describes the work-related injuries and illnesses that an employer must enter into the OSHA records and explains the OSHA forms that employers must use to record work-related fatalities, injuries, and illnesses.</P></NOTE>
+<DIV8 N="1904.4" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.4&quot;,&quot;citation&quot;:&quot;29 CFR 1904.4&quot;}">
+<HEAD>&#xA7; 1904.4 Recording criteria.</HEAD>
+<P>(a) <I>Basic requirement.</I> Each employer required by this part to keep records of fatalities, injuries, and illnesses must record each fatality, injury and illness that:</P>
+<P>(1) Is work-related; and</P>
+<P>(2) Is a new case; and</P>
+<P>(3) Meets one or more of the general recording criteria of &#xA7; 1904.7 or the application to specific cases of &#xA7;&#xA7; 1904.8 through 1904.12.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>What sections of this rule describe recording criteria for recording work-related injuries and illnesses?</I> The table below indicates which sections of the rule address each topic.</P>
+<P>(i) Determination of work-relatedness. See &#xA7; 1904.5.</P>
+<P>(ii) Determination of a new case. See &#xA7; 1904.6.</P>
+<P>(iii) General recording criteria. See &#xA7; 1904.7.</P>
+<P>(iv) Additional criteria. (Needlestick and sharps injury cases, tuberculosis cases, hearing loss cases, medical removal cases, and musculoskeletal disorder cases). See &#xA7;&#xA7; 1904.8 through 1904.12.</P>
+<P>(2) <I>How do I decide whether a particular injury or illness is recordable?</I> The decision tree for recording work-related injuries and illnesses below shows the steps involved in making this determination.</P>
+<img src="/graphics/er19ja01.098.gif"/>
+<CITA TYPE="N">[66 FR 6122, Jan. 19, 2001, as amended at 81 FR 91809, Dec. 19, 2016; 82 FR 20548, May 3, 2017]
+</CITA>
+</DIV8>
+
+<DIV8 N="1904.5" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.5&quot;,&quot;citation&quot;:&quot;29 CFR 1904.5&quot;}">
+<HEAD>&#xA7; 1904.5 Determination of work-relatedness.</HEAD>
+<P>(a) <I>Basic requirement.</I> You must consider an injury or illness to be work-related if an event or exposure in the work environment either caused or contributed to the resulting condition or significantly aggravated a pre-existing injury or illness. Work-relatedness is presumed for injuries and illnesses resulting from events or exposures occurring in the work environment, unless an exception in &#xA7; 1904.5(b)(2) specifically applies.</P>
+<P>(b) <I>Implementation.</I> (1) What is the &#x201C;work environment&#x201D;? OSHA defines the work environment as &#x201C;the establishment and other locations where one or more employees are working or are present as a condition of their employment. The work environment includes not only physical locations, but also the equipment or materials used by the employee during the course of his or her work.&#x201D;</P>
+<P>(2) <I>Are there situations where an injury or illness occurs in the work environment and is not considered work-related?</I> Yes, an injury or illness occurring in the work environment that falls under one of the following exceptions is not work-related, and therefore is not recordable.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%" data-point-width="236">
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">1904.5(b)(2)</TH>
+<TH class="center border-top-single border-bottom-single">You are not required to record injuries and illnesses if . . .</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">(i)</TD>
+<TD class="left">At the time of the injury or illness, the employee was present in the work environment as a member of the general public rather than as an employee.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(ii)</TD>
+<TD class="left">The injury or illness involves signs or symptoms that surface at work but result solely from a non-work-related event or exposure that occurs outside the work environment.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(iii)</TD>
+<TD class="left">The injury or illness results solely from voluntary participation in a wellness program or in a medical, fitness, or recreational activity such as blood donation, physical examination, flu shot, exercise class, racquetball, or baseball.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(iv)</TD>
+<TD class="left">The injury or illness is solely the result of an employee eating, drinking, or preparing food or drink for personal consumption (whether bought on the employer's premises or brought in). For example, if the employee is injured by choking on a sandwich while in the employer's establishment, the case would not be considered work-related.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single"> </TD>
+<TD class="left"><strong class="minor-caps">Note:</strong> If the employee is made ill by ingesting food contaminated by workplace contaminants (such as lead), or gets food poisoning from food supplied by the employer, the case would be considered work-related.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(v)</TD>
+<TD class="left">The injury or illness is solely the result of an employee doing personal tasks (unrelated to their employment) at the establishment outside of the employee's assigned working hours.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(vi)</TD>
+<TD class="left">The injury or illness is solely the result of personal grooming, self medication for a non-work-related condition, or is intentionally self-inflicted.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(vii)</TD>
+<TD class="left">The injury or illness is caused by a motor vehicle accident and occurs on a company parking lot or company access road while the employee is commuting to or from work.</TD>
+</TR>
+<TR>
+<TD class="left border-right-single">(viii)</TD>
+<TD class="left">The illness is the common cold or flu (Note: contagious diseases such as tuberculosis, brucellosis, hepatitis A, or plague are considered work-related if the employee is infected at work).</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">(ix)</TD>
+<TD class="left border-bottom-single">The illness is a mental illness. Mental illness will not be considered work-related unless the employee voluntarily provides the employer with an opinion from a physician or other licensed health care professional with appropriate training and experience (psychiatrist, psychologist, psychiatric nurse practitioner, etc.) stating that the employee has a mental illness that is work-related.</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<P>(3) <I>How do I handle a case if it is not obvious whether the precipitating event or exposure occurred in the work environment or occurred away from work?</I> In these situations, you must evaluate the employee's work duties and environment to decide whether or not one or more events or exposures in the work environment either caused or contributed to the resulting condition or significantly aggravated a pre-existing condition.</P>
+<P>(4) <I>How do I know if an event or exposure in the work environment &#x201C;significantly aggravated&#x201D; a preexisting injury or illness?</I> A preexisting injury or illness has been significantly aggravated, for purposes of OSHA injury and illness recordkeeping, when an event or exposure in the work environment results in any of the following:</P>
+<P>(i) Death, provided that the preexisting injury or illness would likely not have resulted in death but for the occupational event or exposure.</P>
+<P>(ii) Loss of consciousness, provided that the preexisting injury or illness would likely not have resulted in loss of consciousness but for the occupational event or exposure.</P>
+<P>(iii) One or more days away from work, or days of restricted work, or days of job transfer that otherwise would not have occurred but for the occupational event or exposure.</P>
+<P>(iv) Medical treatment in a case where no medical treatment was needed for the injury or illness before the workplace event or exposure, or a change in medical treatment was necessitated by the workplace event or exposure.</P>
+<P>(5) <I>Which injuries and illnesses are considered pre-existing conditions?</I> An injury or illness is a preexisting condition if it resulted solely from a non-work-related event or exposure that occured outside the work environment.</P>
+<P>(6) <I>How do I decide whether an injury or illness is work-related if the employee is on travel status at the time the injury or illness occurs?</I> Injuries and illnesses that occur while an employee is on travel status are work-related if, at the time of the injury or illness, the employee was engaged in work activities &#x201C;in the interest of the employer.&#x201D; Examples of such activities include travel to and from customer contacts, conducting job tasks, and entertaining or being entertained to transact, discuss, or promote business (work-related entertainment includes only entertainment activities being engaged in at the direction of the employer).</P>
+<P>Injuries or illnesses that occur when the employee is on travel status do not have to be recorded if they meet one of the exceptions listed below.</P>
+<DIV width="100%"><DIV class="gpotbl_div">
+<TABLE border="1" cellpadding="1" cellspacing="1" class="gpo_table" frame="void" width="100%" data-point-width="256">
+<THEAD>
+<TR>
+<TH class="center border-top-single border-bottom-single border-right-single">1904.5 (b)(6)</TH>
+<TH class="center border-top-single border-bottom-single border-right-single">If the employee has . . .</TH>
+<TH class="center border-top-single border-bottom-single">You may use the following to determine if an injury or illness is work-related</TH>
+</TR>
+</THEAD>
+<TBODY>
+<TR>
+<TD class="left border-right-single">(i)</TD>
+<TD class="left border-right-single">checked into a hotel or motel for one or more days</TD>
+<TD class="left">When a traveling employee checks into a hotel, motel, or into an other temporary residence, he or she establishes a &#x201C;home away from home.&#x201D; You must evaluate the employee's activities after he or she checks into the hotel, motel, or other temporary residence for their work-relatedness in the same manner as you evaluate the activities of a non-traveling employee. When the employee checks into the temporary residence, he or she is considered to have left the work environment. When the employee begins work each day, he or she re-enters the work environment. If the employee has established a &#x201C;home away from home&#x201D; and is reporting to a fixed worksite each day, you also do not consider injuries or illnesses work-related if they occur while the employee is commuting between the temporary residence and the job location.</TD>
+</TR>
+<TR>
+<TD class="left border-bottom-single border-right-single">(ii)</TD>
+<TD class="left border-bottom-single border-right-single">taken a detour for personal reasons</TD>
+<TD class="left border-bottom-single">Injuries or illnesses are not considered work-related if they occur while the employee is on a personal detour from a reasonably direct route of travel (<E T="03">e.g.,</E> has taken a side trip for personal reasons).</TD>
+</TR>
+</TBODY>
+</TABLE>
+</DIV></DIV>
+<P>(7) <I>How do I decide if a case is work-related when the employee is working at home?</I> Injuries and illnesses that occur while an employee is working at home, including work in a home office, will be considered work-related if the injury or illness occurs while the employee is performing work for pay or compensation in the home, and the injury or illness is directly related to the performance of work rather than to the general home environment or setting. For example, if an employee drops a box of work documents and injures his or her foot, the case is considered work-related. If an employee's fingernail is punctured by a needle from a sewing machine used to perform garment work at home, becomes infected and requires medical treatment, the injury is considered work-related. If an employee is injured because he or she trips on the family dog while rushing to answer a work phone call, the case is not considered work-related. If an employee working at home is electrocuted because of faulty home wiring, the injury is not considered work-related.</P>
+</DIV8>
+
+<DIV8 N="1904.6" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.6&quot;,&quot;citation&quot;:&quot;29 CFR 1904.6&quot;}">
+<HEAD>&#xA7; 1904.6 Determination of new cases.</HEAD>
+<P>(a) <I>Basic requirement.</I> You must consider an injury or illness to be a &#x201C;new case&#x201D; if:</P>
+<P>(1) The employee has not previously experienced a recorded injury or illness of the same type that affects the same part of the body, or</P>
+<P>(2) The employee previously experienced a recorded injury or illness of the same type that affected the same part of the body but had recovered completely (all signs and symptoms had disappeared) from the previous injury or illness and an event or exposure in the work environment caused the signs or symptoms to reappear.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>When an employee experiences the signs or symptoms of a chronic work-related illness, do I need to consider each recurrence of signs or symptoms to be a new case?</I> No, for occupational illnesses where the signs or symptoms may recur or continue in the absence of an exposure in the workplace, the case must only be recorded once. Examples may include occupational cancer, asbestosis, byssinosis and silicosis.</P>
+<P>(2) <I>When an employee experiences the signs or symptoms of an injury or illness as a result of an event or exposure in the workplace, such as an episode of occupational asthma, must I treat the episode as a new case?</I> Yes, because the episode or recurrence was caused by an event or exposure in the workplace, the incident must be treated as a new case.</P>
+<P>(3) <I>May I rely on a physician or other licensed health care professional to determine whether a case is a new case or a recurrence of an old case?</I> You are not required to seek the advice of a physician or other licensed health care professional. However, if you do seek such advice, you must follow the physician or other licensed health care professional's recommendation about whether the case is a new case or a recurrence. If you receive recommendations from two or more physicians or other licensed health care professionals, you must make a decision as to which recommendation is the most authoritative (best documented, best reasoned, or most authoritative), and record the case based upon that recommendation.</P>
+</DIV8>
+
+<DIV8 N="1904.7" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.7&quot;,&quot;citation&quot;:&quot;29 CFR 1904.7&quot;}">
+<HEAD>&#xA7; 1904.7 General recording criteria.</HEAD>
+<P>(a) <I>Basic requirement.</I> You must consider an injury or illness to meet the general recording criteria, and therefore to be recordable, if it results in any of the following: death, days away from work, restricted work or transfer to another job, medical treatment beyond first aid, or loss of consciousness. You must also consider a case to meet the general recording criteria if it involves a significant injury or illness diagnosed by a physician or other licensed health care professional, even if it does not result in death, days away from work, restricted work or job transfer, medical treatment beyond first aid, or loss of consciousness.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>How do I decide if a case meets one or more of the general recording criteria?</I> A work-related injury or illness must be recorded if it results in one or more of the following:</P>
+<P>(i) Death. See &#xA7; 1904.7(b)(2).</P>
+<P>(ii) Days away from work. See &#xA7; 1904.7(b)(3).</P>
+<P>(iii) Restricted work or transfer to another job. See &#xA7; 1904.7(b)(4).</P>
+<P>(iv) Medical treatment beyond first aid. See &#xA7; 1904.7(b)(5).</P>
+<P>(v) Loss of consciousness. See &#xA7; 1904.7(b)(6).</P>
+<P>(vi) A significant injury or illness diagnosed by a physician or other licensed health care professional. See &#xA7; 1904.7(b)(7).</P>
+<P>(2) <I>How do I record a work-related injury or illness that results in the employee's death?</I> You must record an injury or illness that results in death by entering a check mark on the OSHA 300 Log in the space for cases resulting in death. You must also report any work-related fatality to OSHA within eight (8) hours, as required by &#xA7; 1904.39.</P>
+<P>(3) <I>How do I record a work-related injury or illness that results in days away from work?</I> When an injury or illness involves one or more days away from work, you must record the injury or illness on the OSHA 300 Log with a check mark in the space for cases involving days away and an entry of the number of calendar days away from work in the number of days column. If the employee is out for an extended period of time, you must enter an estimate of the days that the employee will be away, and update the day count when the actual number of days is known.</P>
+<P>(i) <I>Do I count the day on which the injury occurred or the illness began?</I> No, you begin counting days away on the day after the injury occurred or the illness began.</P>
+<P>(ii) <I>How do I record an injury or illness when a physician or other licensed health care professional recommends that the worker stay at home but the employee comes to work anyway?</I> You must record these injuries and illnesses on the OSHA 300 Log using the check box for cases with days away from work and enter the number of calendar days away recommended by the physician or other licensed health care professional. If a physician or other licensed health care professional recommends days away, you should encourage your employee to follow that recommendation. However, the days away must be recorded whether the injured or ill employee follows the physician or licensed health care professional's recommendation or not. If you receive recommendations from two or more physicians or other licensed health care professionals, you may make a decision as to which recommendation is the most authoritative, and record the case based upon that recommendation.</P>
+<P>(iii) <I>How do I handle a case when a physician or other licensed health care professional recommends that the worker return to work but the employee stays at home anyway?</I> In this situation, you must end the count of days away from work on the date the physician or other licensed health care professional recommends that the employee return to work.</P>
+<P>(iv) <I>How do I count weekends, holidays, or other days the employee would not have worked anyway?</I> You must count the number of calendar days the employee was unable to work as a result of the injury or illness, regardless of whether or not the employee was scheduled to work on those day(s). Weekend days, holidays, vacation days or other days off are included in the total number of days recorded if the employee would not have been able to work on those days because of a work-related injury or illness.</P>
+<P>(v) <I>How do I record a case in which a worker is injured or becomes ill on a Friday and reports to work on a Monday, and was not scheduled to work on the weekend?</I> You need to record this case only if you receive information from a physician or other licensed health care professional indicating that the employee should not have worked, or should have performed only restricted work, during the weekend. If so, you must record the injury or illness as a case with days away from work or restricted work, and enter the day counts, as appropriate.</P>
+<P>(vi) <I>How do I record a case in which a worker is injured or becomes ill on the day before scheduled time off such as a holiday, a planned vacation, or a temporary plant closing?</I> You need to record a case of this type only if you receive information from a physician or other licensed health care professional indicating that the employee should not have worked, or should have performed only restricted work, during the scheduled time off. If so, you must record the injury or illness as a case with days away from work or restricted work, and enter the day counts, as appropriate.</P>
+<P>(vii) <I>Is there a limit to the number of days away from work I must count?</I> Yes, you may &#x201C;cap&#x201D; the total days away at 180 calendar days. You are not required to keep track of the number of calendar days away from work if the injury or illness resulted in more than 180 calendar days away from work and/or days of job transfer or restriction. In such a case, entering 180 in the total days away column will be considered adequate.</P>
+<P>(viii) <I>May I stop counting days if an employee who is away from work because of an injury or illness retires or leaves my company?</I> Yes, if the employee leaves your company for some reason unrelated to the injury or illness, such as retirement, a plant closing, or to take another job, you may stop counting days away from work or days of restriction/job transfer. If the employee leaves your company because of the injury or illness, you must estimate the total number of days away or days of restriction/job transfer and enter the day count on the 300 Log.</P>
+<P>(ix) <I>If a case occurs in one year but results in days away during the next calendar year, do I record the case in both years?</I> No, you only record the injury or illness once. You must enter the number of calendar days away for the injury or illness on the OSHA 300 Log for the year in which the injury or illness occurred. If the employee is still away from work because of the injury or illness when you prepare the annual summary, estimate the total number of calendar days you expect the employee to be away from work, use this number to calculate the total for the annual summary, and then update the initial log entry later when the day count is known or reaches the 180-day cap.</P>
+<P>(4) <I>How do I record a work-related injury or illness that results in restricted work or job transfer?</I> When an injury or illness involves restricted work or job transfer but does not involve death or days away from work, you must record the injury or illness on the OSHA 300 Log by placing a check mark in the space for job transfer or restriction and an entry of the number of restricted or transferred days in the restricted workdays column.</P>
+<P>(i) <I>How do I decide if the injury or illness resulted in restricted work?</I> Restricted work occurs when, as the result of a work-related injury or illness:</P>
+<P>(A) You keep the employee from performing one or more of the routine functions of his or her job, or from working the full workday that he or she would otherwise have been scheduled to work; or</P>
+<P>(B) A physician or other licensed health care professional recommends that the employee not perform one or more of the routine functions of his or her job, or not work the full workday that he or she would otherwise have been scheduled to work.</P>
+<P>(ii) <I>What is meant by &#x201C;routine functions&#x201D;?</I> For recordkeeping purposes, an employee's routine functions are those work activities the employee regularly performs at least once per week.</P>
+<P>(iii) <I>Do I have to record restricted work or job transfer if it applies only to the day on which the injury occurred or the illness began?</I> No, you do not have to record restricted work or job transfers if you, or the physician or other licensed health care professional, impose the restriction or transfer only for the day on which the injury occurred or the illness began.</P>
+<P>(iv) <I>If you or a physician or other licensed health care professional recommends a work restriction, is the injury or illness automatically recordable as a &#x201C;restricted work&#x201D; case?</I> No, a recommended work restriction is recordable only if it affects one or more of the employee's routine job functions. To determine whether this is the case, you must evaluate the restriction in light of the routine functions of the injured or ill employee's job. If the restriction from you or the physician or other licensed health care professional keeps the employee from performing one or more of his or her routine job functions, or from working the full workday the injured or ill employee would otherwise have worked, the employee's work has been restricted and you must record the case.</P>
+<P>(v) <I>How do I record a case where the worker works only for a partial work shift because of a work-related injury or illness?</I> A partial day of work is recorded as a day of job transfer or restriction for recordkeeping purposes, except for the day on which the injury occurred or the illness began.</P>
+<P>(vi) <I>If the injured or ill worker produces fewer goods or services than he or she would have produced prior to the injury or illness but otherwise performs all of the routine functions of his or her work, is the case considered a restricted work case?</I> No, the case is considered restricted work only if the worker does not perform all of the routine functions of his or her job or does not work the full shift that he or she would otherwise have worked.</P>
+<P>(vii) <I>How do I handle vague restrictions from a physician or other licensed health care professional, such as that the employee engage only in &#x201C;light duty&#x201D; or &#x201C;take it easy for a week&#x201D;?</I> If you are not clear about the physician or other licensed health care professional's recommendation, you may ask that person whether the employee can do all of his or her routine job functions and work all of his or her normally assigned work shift. If the answer to both of these questions is &#x201C;Yes,&#x201D; then the case does not involve a work restriction and does not have to be recorded as such. If the answer to one or both of these questions is &#x201C;No,&#x201D; the case involves restricted work and must be recorded as a restricted work case. If you are unable to obtain this additional information from the physician or other licensed health care professional who recommended the restriction, record the injury or illness as a case involving restricted work.</P>
+<P>(viii) <I>What do I do if a physician or other licensed health care professional recommends a job restriction meeting OSHA's definition, but the employee does all of his or her routine job functions anyway?</I> You must record the injury or illness on the OSHA 300 Log as a restricted work case. If a physician or other licensed health care professional recommends a job restriction, you should ensure that the employee complies with that restriction. If you receive recommendations from two or more physicians or other licensed health care professionals, you may make a decision as to which recommendation is the most authoritative, and record the case based upon that recommendation.</P>
+<P>(ix) <I>How do I decide if an injury or illness involved a transfer to another job?</I> If you assign an injured or ill employee to a job other than his or her regular job for part of the day, the case involves transfer to another job. Note: This does not include the day on which the injury or illness occurred.</P>
+<P>(x) <I>Are transfers to another job recorded in the same way as restricted work cases?</I> Yes, both job transfer and restricted work cases are recorded in the same box on the OSHA 300 Log. For example, if you assign, or a physician or other licensed health care professional recommends that you assign, an injured or ill worker to his or her routine job duties for part of the day and to another job for the rest of the day, the injury or illness involves a job transfer. You must record an injury or illness that involves a job transfer by placing a check in the box for job transfer.</P>
+<P>(xi) <I>How do I count days of job transfer or restriction?</I> You count days of job transfer or restriction in the same way you count days away from work, using &#xA7; 1904.7(b)(3)(i) to (viii), above. The only difference is that, if you permanently assign the injured or ill employee to a job that has been modified or permanently changed in a manner that eliminates the routine functions the employee was restricted from performing, you may stop the day count when the modification or change is made permanent. You must count at least one day of restricted work or job transfer for such cases.</P>
+<P>(5) <I>How do I record an injury or illness that involves medical treatment beyond first aid?</I> If a work-related injury or illness results in medical treatment beyond first aid, you must record it on the OSHA 300 Log. If the injury or illness did not involve death, one or more days away from work, one or more days of restricted work, or one or more days of job transfer, you enter a check mark in the box for cases where the employee received medical treatment but remained at work and was not transferred or restricted.</P>
+<P>(i) <I>What is the definition of medical treatment?</I> &#x201C;Medical treatment&#x201D; means the management and care of a patient to combat disease or disorder. For the purposes of part 1904, medical treatment does not include:</P>
+<P>(A) Visits to a physician or other licensed health care professional solely for observation or counseling;</P>
+<P>(B) The conduct of diagnostic procedures, such as x-rays and blood tests, including the administration of prescription medications used solely for diagnostic purposes (<I>e.g.,</I> eye drops to dilate pupils); or</P>
+<P>(C) &#x201C;First aid&#x201D; as defined in paragraph (b)(5)(ii) of this section.</P>
+<P>(ii) <I>What is &#x201C;first aid&#x201D;?</I> For the purposes of part 1904, &#x201C;first aid&#x201D; means the following:</P>
+<P>(A) Using a non-prescription medication at nonprescription strength (for medications available in both prescription and non-prescription form, a recommendation by a physician or other licensed health care professional to use a non-prescription medication at prescription strength is considered medical treatment for recordkeeping purposes);</P>
+<P>(B) Administering tetanus immunizations (other immunizations, such as Hepatitis B vaccine or rabies vaccine, are considered medical treatment);</P>
+<P>(C) Cleaning, flushing or soaking wounds on the surface of the skin;</P>
+<P>(D) Using wound coverings such as bandages, Band-Aids
+<SU>TM</SU>, gauze pads, etc.; or using butterfly bandages or Steri-Strips
+<SU>TM</SU> (other wound closing devices such as sutures, staples, etc., are considered medical treatment);</P>
+<P>(E) Using hot or cold therapy;</P>
+<P>(F) Using any non-rigid means of support, such as elastic bandages, wraps, non-rigid back belts, etc. (devices with rigid stays or other systems designed to immobilize parts of the body are considered medical treatment for recordkeeping purposes);</P>
+<P>(G) Using temporary immobilization devices while transporting an accident victim (<I>e.g.,</I> splints, slings, neck collars, back boards, etc.).</P>
+<P>(H) Drilling of a fingernail or toenail to relieve pressure, or draining fluid from a blister;</P>
+<P>(I) Using eye patches;</P>
+<P>(J) Removing foreign bodies from the eye using only irrigation or a cotton swab;</P>
+<P>(K) Removing splinters or foreign material from areas other than the eye by irrigation, tweezers, cotton swabs or other simple means;</P>
+<P>(L) Using finger guards;</P>
+<P>(M) Using massages (physical therapy or chiropractic treatment are considered medical treatment for recordkeeping purposes); or</P>
+<P>(N) Drinking fluids for relief of heat stress.</P>
+<P>(iii) <I>Are any other procedures included in first aid?</I> No, this is a complete list of all treatments considered first aid for part 1904 purposes.</P>
+<P>(iv) <I>Does the professional status of the person providing the treatment have any effect on what is considered first aid or medical treatment?</I> No, OSHA considers the treatments listed in &#xA7; 1904.7(b)(5)(ii) of this part to be first aid regardless of the professional status of the person providing the treatment. Even when these treatments are provided by a physician or other licensed health care professional, they are considered first aid for the purposes of part 1904. Similarly, OSHA considers treatment beyond first aid to be medical treatment even when it is provided by someone other than a physician or other licensed health care professional.</P>
+<P>(v) <I>What if a physician or other licensed health care professional recommends medical treatment but the employee does not follow the recommendation?</I> If a physician or other licensed health care professional recommends medical treatment, you should encourage the injured or ill employee to follow that recommendation. However, you must record the case even if the injured or ill employee does not follow the physician or other licensed health care professional's recommendation.</P>
+<P>(6) <I>Is every work-related injury or illness case involving a loss of consciousness recordable?</I> Yes, you must record a work-related injury or illness if the worker becomes unconscious, regardless of the length of time the employee remains unconscious.</P>
+<P>(7) <I>What is a &#x201C;significant&#x201D; diagnosed injury or illness that is recordable under the general criteria even if it does not result in death, days away from work, restricted work or job transfer, medical treatment beyond first aid, or loss of consciousness?</I> Work-related cases involving cancer, chronic irreversible disease, a fractured or cracked bone, or a punctured eardrum must always be recorded under the general criteria at the time of diagnosis by a physician or other licensed health care professional.</P>
+<NOTE>
+<HED>Note to &#xA7; 1904.7:</HED>
+<P>OSHA believes that most significant injuries and illnesses will result in one of the criteria listed in &#xA7; 1904.7(a): death, days away from work, restricted work or job transfer, medical treatment beyond first aid, or loss of consciousness. However, there are some significant injuries, such as a punctured eardrum or a fractured toe or rib, for which neither medical treatment nor work restrictions may be recommended. In addition, there are some significant progressive diseases, such as byssinosis, silicosis, and some types of cancer, for which medical treatment or work restrictions may not be recommended at the time of diagnosis but are likely to be recommended as the disease progresses. OSHA believes that cancer, chronic irreversible diseases, fractured or cracked bones, and punctured eardrums are generally considered significant injuries and illnesses, and must be recorded at the initial diagnosis even if medical treatment or work restrictions are not recommended, or are postponed, in a particular case.</P></NOTE>
+</DIV8>
+
+<DIV8 N="1904.8" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.8&quot;,&quot;citation&quot;:&quot;29 CFR 1904.8&quot;}">
+<HEAD>&#xA7; 1904.8 Recording criteria for needlestick and sharps injuries.</HEAD>
+<P>(a) <I>Basic requirement.</I> You must record all work-related needlestick injuries and cuts from sharp objects that are contaminated with another person's blood or other potentially infectious material (as defined by 29 CFR 1910.1030). You must enter the case on the OSHA 300 Log as an injury. To protect the employee's privacy, you may not enter the employee's name on the OSHA 300 Log (see the requirements for privacy cases in paragraphs 1904.29(b)(6) through 1904.29(b)(9)).</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>What does &#x201C;other potentially infectious material&#x201D; mean?</I> The term &#x201C;other potentially infectious materials&#x201D; is defined in the OSHA Bloodborne Pathogens standard at &#xA7; 1910.1030(b). These materials include:</P>
+<P>(i) Human bodily fluids, tissues and organs, and</P>
+<P>(ii) Other materials infected with the HIV or hepatitis B (HBV) virus such as laboratory cultures or tissues from experimental animals.</P>
+<P>(2) <I>Does this mean that I must record all cuts, lacerations, punctures, and scratches?</I> No, you need to record cuts, lacerations, punctures, and scratches only if they are work-related and involve contamination with another person's blood or other potentially infectious material. If the cut, laceration, or scratch involves a clean object, or a contaminant other than blood or other potentially infectious material, you need to record the case only if it meets one or more of the recording criteria in &#xA7; 1904.7.</P>
+<P>(3) <I>If I record an injury and the employee is later diagnosed with an infectious bloodborne disease, do I need to update the OSHA 300 Log?</I> Yes, you must update the classification of the case on the OSHA 300 Log if the case results in death, days away from work, restricted work, or job transfer. You must also update the description to identify the infectious disease and change the classification of the case from an injury to an illness.</P>
+<P>(4) <I>What if one of my employees is splashed or exposed to blood or other potentially infectious material without being cut or scratched? Do I need to record this incident?</I> You need to record such an incident on the OSHA 300 Log as an illness if:</P>
+<P>(i) It results in the diagnosis of a bloodborne illness, such as HIV, hepatitis B, or hepatitis C; or</P>
+<P>(ii) It meets one or more of the recording criteria in &#xA7; 1904.7.</P>
+</DIV8>
+
+<DIV8 N="1904.9" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.9&quot;,&quot;citation&quot;:&quot;29 CFR 1904.9&quot;}">
+<HEAD>&#xA7; 1904.9 Recording criteria for cases involving medical removal under OSHA standards.</HEAD>
+<P>(a) <I>Basic requirement.</I> If an employee is medically removed under the medical surveillance requirements of an OSHA standard, you must record the case on the OSHA 300 Log.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>How do I classify medical removal cases on the OSHA 300 Log?</I> You must enter each medical removal case on the OSHA 300 Log as either a case involving days away from work or a case involving restricted work activity, depending on how you decide to comply with the medical removal requirement. If the medical removal is the result of a chemical exposure, you must enter the case on the OSHA 300 Log by checking the &#x201C;poisoning&#x201D; column.</P>
+<P>(2) <I>Do all of OSHA's standards have medical removal provisions?</I> No, some OSHA standards, such as the standards covering bloodborne pathogens and noise, do not have medical removal provisions. Many OSHA standards that cover specific chemical substances have medical removal provisions. These standards include, but are not limited to, lead, cadmium, methylene chloride, formaldehyde, and benzene.</P>
+<P>(3) <I>Do I have to record a case where I voluntarily removed the employee from exposure before the medical removal criteria in an OSHA standard are met?</I> No, if the case involves voluntary medical removal before the medical removal levels required by an OSHA standard, you do not need to record the case on the OSHA 300 Log.</P>
+</DIV8>
+
+<DIV8 N="1904.10" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.10&quot;,&quot;citation&quot;:&quot;29 CFR 1904.10&quot;}">
+<HEAD>&#xA7; 1904.10 Recording criteria for cases involving occupational hearing loss.</HEAD>
+<P>(a) <I>Basic requirement.</I> If an employee's hearing test (audiogram) reveals that the employee has experienced a work-related Standard Threshold Shift (STS) in hearing in one or both ears, and the employee's total hearing level is 25 decibels (dB) or more above audiometric zero (averaged at 2000, 3000, and 4000 Hz) in the same ear(s) as the STS, you must record the case on the OSHA 300 Log.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>What is a Standard Threshold Shift?</I> A Standard Threshold Shift, or STS, is defined in the occupational noise exposure standard at 29 CFR 1910.95(g)(10)(i) as a change in hearing threshold, relative to the baseline audiogram for that employee, of an average of 10 decibels (dB) or more at 2000, 3000, and 4000 hertz (Hz) in one or both ears.</P>
+<P>(2) <I>How do I evaluate the current audiogram to determine whether an employee has an STS and a 25-dB hearing level?</I>&#x2014;(i) <I>STS.</I> If the employee has never previously experienced a recordable hearing loss, you must compare the employee's current audiogram with that employee's baseline audiogram. If the employee has previously experienced a recordable hearing loss, you must compare the employee's current audiogram with the employee's revised baseline audiogram (the audiogram reflecting the employee's previous recordable hearing loss case).</P>
+<P>(ii) <I>25-dB loss.</I> Audiometric test results reflect the employee's overall hearing ability in comparison to audiometric zero. Therefore, using the employee's current audiogram, you must use the average hearing level at 2000, 3000, and 4000 Hz to determine whether or not the employee's total hearing level is 25 dB or more.</P>
+<P>(3) <I>May I adjust the current audiogram to reflect the effects of aging on hearing?</I> Yes. When you are determining whether an STS has occurred, you may age adjust the employee's current audiogram results by using Tables F-1 or F-2, as appropriate, in appendix F of 29 CFR 1910.95. You may not use an age adjustment when determining whether the employee's total hearing level is 25 dB or more above audiometric zero.</P>
+<P>(4) <I>Do I have to record the hearing loss if I am going to retest the employee's hearing?</I> No, if you retest the employee's hearing within 30 days of the first test, and the retest does not confirm the recordable STS, you are not required to record the hearing loss case on the OSHA 300 Log. If the retest confirms the recordable STS, you must record the hearing loss illness within seven (7) calendar days of the retest. If subsequent audiometric testing performed under the testing requirements of the &#xA7; 1910.95 noise standard indicates that an STS is not persistent, you may erase or line-out the recorded entry.</P>
+<P>(5) <I>Are there any special rules for determining whether a hearing loss case is work-related?</I> No. You must use the rules in &#xA7; 1904.5 to determine if the hearing loss is work-related. If an event or exposure in the work environment either caused or contributed to the hearing loss, or significantly aggravated a pre-existing hearing loss, you must consider the case to be work related.</P>
+<P>(6) <I>If a physician or other licensed health care professional determines the hearing loss is not work-related, do I still need to record the case?</I> If a physician or other licensed health care professional determines, following the rules set out in &#xA7; 1904.5, that the hearing loss is not work-related or that occupational noise exposure did not significantly aggravate the hearing loss, you do not have to consider the case work-related or record the case on the OSHA 300 Log.</P>
+<P>(7) <I>How do I complete the 300 Log for a hearing loss case?</I> When you enter a recordable hearing loss case on the OSHA 300 Log, you must check the 300 Log column for hearing loss.</P>
+<NOTE>
+<HED>(Note:</HED>
+<P>&#xA7; 1904.10(b)(7) is effective beginning January 1, 2004.)</P></NOTE>
+<CITA TYPE="N">[67 FR 44047, July 1, 2002, as amended at 67 FR 77170, Dec. 17, 2002; 84 FR 21457, May 14, 2019]
+</CITA>
+</DIV8>
+
+<DIV8 N="1904.11" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.11&quot;,&quot;citation&quot;:&quot;29 CFR 1904.11&quot;}">
+<HEAD>&#xA7; 1904.11 Recording criteria for work-related tuberculosis cases.</HEAD>
+<P>(a) <I>Basic requirement.</I> If any of your employees has been occupationally exposed to anyone with a known case of active tuberculosis (TB), and that employee subsequently develops a tuberculosis infection, as evidenced by a positive skin test or diagnosis by a physician or other licensed health care professional, you must record the case on the OSHA 300 Log by checking the &#x201C;respiratory condition&#x201D; column.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>Do I have to record, on the Log, a positive TB skin test result obtained at a pre-employment physical?</I> No, you do not have to record it because the employee was not occupationally exposed to a known case of active tuberculosis in your workplace.</P>
+<P>(2) <I>May I line-out or erase a recorded TB case if I obtain evidence that the case was not caused by occupational exposure?</I> Yes, you may line-out or erase the case from the Log under the following circumstances:</P>
+<P>(i) The worker is living in a household with a person who has been diagnosed with active TB;</P>
+<P>(ii) The Public Health Department has identified the worker as a contact of an individual with a case of active TB unrelated to the workplace; or</P>
+<P>(iii) A medical investigation shows that the employee's infection was caused by exposure to TB away from work, or proves that the case was not related to the workplace TB exposure.</P>
+</DIV8>
+
+<DIV8 N="1904.13-1904.28" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.13-1904.28&quot;,&quot;citation&quot;:&quot;29 CFR 1904.13-1904.28&quot;}">
+<HEAD>&#xA7;&#xA7; 1904.13-1904.28 [Reserved]</HEAD>
+</DIV8>
+
+<DIV8 N="1904.29" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-29/section-1904.29&quot;,&quot;citation&quot;:&quot;29 CFR 1904.29&quot;}">
+<HEAD>&#xA7; 1904.29 Forms.</HEAD>
+<P>(a) <I>Basic requirement.</I> You must use OSHA 300, 300-A, and 301 forms, or equivalent forms, for recordable injuries and illnesses. The OSHA 300 form is called the Log of Work-Related Injuries and Illnesses, the 300-A is the Summary of Work-Related Injuries and Illnesses, and the OSHA 301 form is called the Injury and Illness Incident Report.</P>
+<P>(b) <I>Implementation</I>&#x2014;(1) <I>What do I need to do to complete the OSHA 300 Log?</I> You must enter information about your business at the top of the OSHA 300 Log, enter a one or two line description for each recordable injury or illness, and summarize this information on the OSHA 300-A at the end of the year.</P>
+<P>(2) <I>What do I need to do to complete the OSHA 301 Incident Report?</I> You must complete an OSHA 301 Incident Report form, or an equivalent form, for each recordable injury or illness entered on the OSHA 300 Log.</P>
+<P>(3) <I>How quickly must each injury or illness be recorded?</I> You must enter each recordable injury or illness on the OSHA 300 Log and 301 Incident Report within seven (7) calendar days of receiving information that a recordable injury or illness has occurred.</P>
+<P>(4) <I>What is an equivalent form?</I> An equivalent form is one that has the same information, is as readable and understandable, and is completed using the same instructions as the OSHA form it replaces. Many employers use an insurance form instead of the OSHA 301 Incident Report, or supplement an insurance form by adding any additional information required by OSHA.</P>
+<P>(5) <I>May I keep my records on a computer?</I> Yes, if the computer can produce equivalent forms when they are needed, as described under &#xA7;&#xA7; 1904.35 and 1904.40, you may keep your records using the computer system.</P>
+<P>(6) <I>Are there situations where I do not put the employee's name on the forms for privacy reasons?</I> Yes, if you have a &#x201C;privacy concern case,&#x201D; you may not enter the employee's name on the OSHA 300 Log. Instead, enter &#x201C;privacy case&#x201D; in the space normally used for the employee's name. This will protect the privacy of the injured or ill employee when another employee, a former employee, or an authorized employee representative is provided access to the OSHA 300 Log under &#xA7; 1904.35(b)(2). You must keep a separate, confidential list of the case numbers and employee names for your privacy concern cases so you can update the cases and provide the information to the government if asked to do so.</P>
+<P>(7) <I>How do I determine if an injury or illness is a privacy concern case?</I> You must consider the following injuries or illnesses to be privacy concern cases:</P>
+<P>(i) An injury or illness to an intimate body part or the reproductive system;</P>
+<P>(ii) An injury or illness resulting from a sexual assault;</P>
+<P>(iii) Mental illnesses;</P>
+<P>(iv) HIV infection, hepatitis, or tuberculosis;</P>
+<P>(v) Needlestick injuries and cuts from sharp objects that are contaminated with another person's blood or other potentially infectious material (see &#xA7; 1904.8 for definitions); and</P>
+<P>(vi) Other illnesses, if the employee voluntarily requests that his or her name not be entered on the log.</P>
+<P>(8) <I>May I classify any other types of injuries and illnesses as privacy concern cases?</I> No, this is a complete list of all injuries and illnesses considered privacy concern cases for part 1904 purposes.</P>
+<P>(9) <I>If I have removed the employee's name, but still believe that the employee may be identified from the information on the forms, is there anything else that I can do to further protect the employee's privacy?</I> Yes, if you have a reasonable basis to believe that information describing the privacy concern case may be personally identifiable even though the employee's name has been omitted, you may use discretion in describing the injury or illness on both the OSHA 300 and 301 forms. You must enter enough information to identify the cause of the incident and the general severity of the injury or illness, but you do not need to include details of an intimate or private nature. For example, a sexual assault case could be described as &#x201C;injury from assault,&#x201D; or an injury to a reproductive organ could be described as &#x201C;lower abdominal injury.&#x201D;</P>
+<P>(10) <I>What must I do to protect employee privacy if I wish to provide access to the OSHA Forms 300 and 301 to persons other than government representatives, employees, former employees or authorized representatives?</I> If you decide to voluntarily disclose the Forms to persons other than government representatives, employees, former employees or authorized representatives (as required by &#xA7;&#xA7; 1904.35 and 1904.40), you must remove or hide the employees' names and other personally identifying information, except for the following cases. You may disclose the Forms with personally identifying information only:</P>
+<P>(i) to an auditor or consultant hired by the employer to evaluate the safety and health program;</P>
+<P>(ii) to the extent necessary for processing a claim for workers' compensation or other insurance benefits; or</P>
+<P>(iii) to a public health authority or law enforcement agency for uses and disclosures for which consent, an authorization, or opportunity to agree or object is not required under Department of Health and Human Services Standards for Privacy of Individually Identifiable Health Information, 45 CFR 164.512.</P>
+<CITA TYPE="N">[66 FR 6122, Jan. 19, 2001, as amended at 66 FR 52034, Oct. 12, 2001; 67 FR 77170, Dec. 17, 2002; 68 FR 38607, June 30, 2003; 81 FR 91809, Dec. 19, 2016; 82 FR 20548, May 3, 2017]
+</CITA>
+</DIV8>
+
+</DIV6>

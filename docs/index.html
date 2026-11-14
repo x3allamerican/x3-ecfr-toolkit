@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regulation Change Tracker and CFR Search | Free eCFR tool by X3</title>
+<meta name="description" content="Free tool: see every amendment to any part of the Code of Federal Regulations since a date, search the CFR, and turn citations in any text into eCFR links. Open source, uses the official eCFR API.">
+<link rel="stylesheet" href="demo.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="https://github.com/x3allamerican"><b>X3</b> eCFR Toolkit</a>
+  <nav><a href="https://github.com/x3allamerican/x3-ecfr-toolkit">Source on GitHub</a></nav>
+</header>
+<main>
+  <h1>What changed in the <span>CFR?</span></h1>
+  <p class="lede">Pick any part of the Code of Federal Regulations and see every amendment since a date, straight from the official eCFR. Search the regulations, or paste text to turn every citation in it into a link.</p>
+  <div class="grid">
+    <section class="box">
+      <h2>Changes since a date</h2>
+      <div class="row">
+        <div><label for="ct">Title</label><select id="ct">
+          <option value="29">29: Labor (OSHA)</option><option value="49" selected>49: Transportation (FMCSA, PHMSA)</option>
+          <option value="46">46: Shipping (Coast Guard)</option><option value="33">33: Navigation (Coast Guard)</option>
+          <option value="40">40: Environment (EPA)</option><option value="30">30: Mineral Resources (MSHA)</option>
+          <option value="21">21: Food and Drugs (FDA)</option><option value="10">10: Energy (NRC, DOE)</option>
+        </select></div>
+        <div><label for="cp">Part</label><input id="cp" value="395" inputmode="numeric"></div>
+        <div><label for="cs">Since</label><input id="cs" type="date" value="2019-01-01"></div>
+      </div>
+      <div class="row"><button id="cgo">Show Changes</button>
+        <button class="ghost" type="button" data-p="49,192,2022-01-01">Pipelines 192</button>
+        <button class="ghost" type="button" data-p="29,1904,2016-01-01">OSHA 1904</button>
+        <button class="ghost" type="button" data-p="46,15,2016-01-01">Manning 46/15</button></div>
+      <ul class="list" id="cout" style="margin-top:14px;max-height:560px;overflow:auto"></ul>
+    </section>
+    <section class="box">
+      <h2>Search the CFR</h2>
+      <div class="row">
+        <div style="flex:3 1 200px"><label for="q">Words</label><input id="q" value="sleeper berth"></div>
+        <div><label for="qt">Title</label><select id="qt"><option value="">Any</option><option>29</option><option selected>49</option><option>46</option><option>33</option><option>40</option></select></div>
+      </div>
+      <button id="qgo">Search</button>
+      <ul class="list" id="qout" style="margin-top:14px;max-height:560px;overflow:auto"></ul>
+    </section>
+  </div>
+  <section class="box" style="margin-top:18px">
+    <h2>Link every citation in a block of text</h2>
+    <textarea id="txt" style="min-height:110px">Drivers must follow 49 CFR 395.3(a)(2) and the break rule in § 395.3(a)(3)(ii). Recordkeeping is in 29 C.F.R. § 1904.7(b)(5), lockout in 29 CFR 1910.147, and pipeline operators see 49 CFR Part 192.</textarea>
+    <label for="dt">Title for citations written without one (like "§ 395.3")</label><input id="dt" value="49" style="max-width:120px">
+    <div id="lout" style="margin-top:12px;line-height:1.8"></div>
+  </section>
+  <p class="small" style="margin-top:22px">Data from the official <a href="https://www.ecfr.gov/developers/documentation/api/v1">eCFR API</a>, fetched by your browser. The eCFR is an editorial compilation, not the official legal edition of the CFR. Not legal advice.</p>
+</main>
+<footer>Free and open source (MIT) from X3: <a href="https://x3fleetsafety.com">X3 Fleet Safety</a> · <a href="https://x3workplacesafety.com">X3 Workplace Safety</a> · <a href="https://x3pipeline.com">X3 Pipeline</a> · <a href="https://x3maritime.com">X3 Maritime</a></footer>
+<script type="module">
+import { createClient, findCitations, formatCitation, ecfrUrl } from './ecfr.js';
+const $ = (id) => document.getElementById(id);
+const c = createClient();
+const esc = (s) => String(s).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+const fmtDate = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+async function changes() {
+  $('cout').innerHTML = '<li class="small">Loading from eCFR…</li>';
+  try {
+    const days = await c.changes(Number($('ct').value), { part: $('cp').value.trim(), since: $('cs').value });
+    const n = days.reduce((a, d) => a + d.sections.length, 0);
+    $('cout').innerHTML = days.length
+      ? `<li class="small">${n} section change(s) on ${days.length} date(s)</li>` + days.map((d) => `<li><span class="pill warn">${fmtDate(d.date)}</span><br>${d.sections.map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.removed ? ' <span class="pill bad">removed</span>' : ''}`).join('<br>')}</li>`).join('')
+      : '<li><span class="pill ok">No substantive changes</span> in that part since that date.</li>';
+  } catch (e) { $('cout').innerHTML = `<li><span class="pill bad">Error</span> ${esc(e.message)}</li>`; }
+}
+async function search() {
+  $('qout').innerHTML = '<li class="small">Searching…</li>';
+  try {
+    const r = await c.search($('q').value, { title: $('qt').value ? Number($('qt').value) : undefined, perPage: 8 });
+    $('qout').innerHTML = `<li class="small">${r.total} matching section(s)</li>` + r.results.map((x) => `<li><a href="${x.url}" target="_blank" rel="noopener"><b>${esc(x.citation)}</b></a> ${(x.headings?.section ?? '').replace(/<[^>]+>/g, '').replace(/^§\s*[\d.]+\s*/, '')}<br><span class="small">${x.full_text_excerpt.replace(/<(?!\/?strong>)[^>]+>/g, '')}</span></li>`).join('');
+  } catch (e) { $('qout').innerHTML = `<li><span class="pill bad">Error</span> ${esc(e.message)}</li>`; }
+}
+function link() {
+  const text = $('txt').value;
+  const found = findCitations(text, Number($('dt').value) || undefined);
+  let html = '', at = 0;
+  for (const cit of found) {
+    const i = text.indexOf(cit.raw, at);
+    if (i < 0) continue;
+    html += esc(text.slice(at, i));
+    html += cit.title ? `<a href="${ecfrUrl(cit)}" target="_blank" rel="noopener" title="${esc(formatCitation(cit))}">${esc(cit.raw)}</a>` : esc(cit.raw);
+    at = i + cit.raw.length;
+  }
+  $('lout').innerHTML = html + esc(text.slice(at)) + `<div class="small" style="margin-top:8px">${found.length} citation(s) found</div>`;
+}
+$('cgo').onclick = changes; $('qgo').onclick = search;
+$('txt').oninput = link; $('dt').oninput = link;
+document.querySelectorAll('[data-p]').forEach((b) => b.onclick = () => { const [t, p, s] = b.dataset.p.split(','); $('ct').value = t; $('cp').value = p; $('cs').value = s; changes(); });
+changes(); search(); link();
+</script>
+</body>
+</html>
