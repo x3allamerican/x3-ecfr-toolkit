@@ -20,13 +20,13 @@ The eCFR API returns raw XML where paragraph numbers are just text: `<P>(b) <I>I
 ## Install
 
 ```sh
-npm install github:x3allamerican/x3-ecfr-toolkit
+npm install x3-ecfr-toolkit
 ```
 
 ## Use
 
 ```ts
-import { createClient, parseCitation, findCitations, ecfrUrl } from '@x3/ecfr-toolkit';
+import { createClient, parseCitation, findCitations, ecfrUrl } from 'x3-ecfr-toolkit';
 
 const ecfr = createClient({ userAgent: 'my-app (me@example.com)' });
 
@@ -57,10 +57,10 @@ All client methods: `titles`, `latestDate`, `versions`, `structure`, `xml`, `sec
 ## Command line
 
 ```sh
-npx github:x3allamerican/x3-ecfr-toolkit cite "49 CFR 395.3(a)(2)"
-npx github:x3allamerican/x3-ecfr-toolkit changes 29 --part 1904 --since 2023-01-01
-npx github:x3allamerican/x3-ecfr-toolkit compare 49 395.1 2019-01-01 2021-01-01
-npx github:x3allamerican/x3-ecfr-toolkit search "sleeper berth" --title 49
+npx x3-ecfr-toolkit cite "49 CFR 395.3(a)(2)"
+npx x3-ecfr-toolkit changes 29 --part 1904 --since 2023-01-01
+npx x3-ecfr-toolkit compare 49 395.1 2019-01-01 2021-01-01
+npx x3-ecfr-toolkit search "sleeper berth" --title 49
 ```
 
 Add `--json` for machine-readable output.

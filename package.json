@@ -1,6 +1,6 @@
 {
-  "name": "@x3/ecfr-toolkit",
-  "version": "1.0.2",
+  "name": "x3-ecfr-toolkit",
+  "version": "1.0.3",
   "description": "Read the Code of Federal Regulations from the official eCFR API as clean paragraph-level data: citations, full text, search, change history and diffs.",
   "type": "module",
   "main": "dist/index.js",
@@ -52,5 +52,8 @@
   },
   "bin": {
     "ecfr": "bin/ecfr.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
