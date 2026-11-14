@@ -158,7 +158,7 @@ function parseParagraphs(body: string, citationBase: string): Paragraph[] {
   const out: Paragraph[] = [];
   const stack: string[] = [];
   let lastLevel = 0;
-  for (const m of body.matchAll(/<(P|FP)(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g)) {
+  for (const m of body.matchAll(/<(P|FP(?:-\d+)?)(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g)) {
     const inner = m[2];
     const labels = leadingLabels(inner);
     for (const lab of labels) {
